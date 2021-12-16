@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	height: 4.5rem;
+	padding-top: 10px;
+}
+
+.CompanyName {
+	color: white;
+	margin-left: 12px;
+}
+
+.login-area {
+	margin-right: 12px;
+}
+
+.loginBtn {
+	color: white;
+	border: white 2px solid;
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 80px;
+	transition: 0.52s;
+}
+
+.loginBtn:hover {
+	background-color: white;
+	color: #1b1a1a;
+}
