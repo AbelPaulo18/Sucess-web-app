@@ -1,0 +1,81 @@
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+	width: 25.5%;
+	height: 65%;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.25s;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cardContainer:hover {
+	image-rendering: optimizeQuality;
+	padding: 4px;
+}
+
+.imageContainer {
+	width: 100%;
+	height: 75%;
+	border-radius: 8px;
+	background-color: orangered;
+}
+
+.text_row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+	width: 100%;
+	min-height: 15%;
+	max-height: 25%;
+	margin-top: 4px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding-right: 8px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.text_row > div {
+	display: flex;
+	width: 80%;
+	height: 80%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.text_row > div > span:first-child {
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #eee;
+}
+
+.text_row > div > span {
+	font-size: 1rem;
+	font-weight: 100;
+	font-style: italic;
+	color: #aaa;
+}
+
+.icon {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: aliceblue;
+}
